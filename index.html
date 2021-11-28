@@ -26,28 +26,21 @@
         <div class="card-body">
           <h1 class="card-title">Read the clouds..</h1>
           <form id="search-form">
-              <input
-                type="text"
-                placeholder="Type a city.."
-                autofocus="on"
-                autocomplete="off"
-                id="city-input"
-              />
-              <input
-                type="submit"
-                value="Go"
-                id="go"
-              />
-            
-             
-              
+            <input
+              type="text"
+              placeholder="Type a city.."
+              autofocus="on"
+              autocomplete="off"
+              id="city-input"
+            />
+            <input type="submit" value="Go" id="go" />
           </form>
           <h2 id="city">City</h2>
-          <h3 <span id="day">Day</span></h3>
-          <h3 <span id="time"> 00:00</span></h3> 
-          <div class = "temp"> 
-          <span id="temperature"></span><span id="unit">°C</span>
-            <span id="fahrenheit-link" <a href="#" >| °F</a></span>
+          <h3 id="day">Day</h3>
+          <h3 id="time">00:00</h3>
+          <div class="temp">
+            <span id="temperature"></span><span id="unit">°C</span>
+            <span id="fahrenheit-link" href="#">| °F</span>
           </div>
           <img src="img/cloudy.png" class="weather" alt="Cloudy" width="45px" />
           <div id="description"></div>
@@ -91,6 +84,11 @@
           </div>
         </div>
       </div>
+      <a
+        href="https://app.netlify.com/sites/admiring-archimedes-e6ef4f/deploys?filter=main"
+        target="blank"
+        >Open source code</a
+      >
     </div>
     <script src="src/script.js"></script>
   </body>
