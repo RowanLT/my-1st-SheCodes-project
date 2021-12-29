@@ -33,10 +33,6 @@ function showWeather(response) {
   );
   document.querySelector("#description").innerHTML =
     response.data.weather[0].description;
-  iconElement.setAttribute(
-    "src",
-    "http://openweathermap.org/img/wn/04d@2x.png"
-  );
 }
 
 function lookupCity(city) {
@@ -58,6 +54,10 @@ function clickSubmit(event) {
   let currentDay = new Date();
   dayElement.innerHTML = formatDay(currentDay);
   let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute(
+    "src",
+    "http://openweathermap.org/img/wn/04d@2x.png"
+  );
 }
 
 let searchForm = document.querySelector("#search-form");
