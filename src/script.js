@@ -54,7 +54,7 @@ function clickSubmit(event) {
   let currentDay = new Date();
   dayElement.innerHTML = formatDay(currentDay);
   let iconElement = document.querySelector("#icon");
-  iconElement.setAttribute(
+  iconElement.value(
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
