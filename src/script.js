@@ -32,7 +32,7 @@ function showWeather(response) {
     response.data.main.temp
   );
   document.querySelector("#description").innerHTML =
-    response.data.weather[0].main;
+    response.data.weather[0].description;
 }
 
 function lookupCity(city) {
@@ -53,9 +53,6 @@ function clickSubmit(event) {
   let dayElement = document.querySelector("#day");
   let currentDay = new Date();
   dayElement.innerHTML = formatDay(currentDay);
-
-  let descriptionElement = document.querySelector("#description");
-  descriptionElement.innerHTML = response.data.weather[0].description;
 }
 
 let searchForm = document.querySelector("#search-form");
