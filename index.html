@@ -25,15 +25,27 @@
       <div class="card">
         <div class="card-body">
           <h1 class="card-title">Read the clouds..</h1>
-          <form id="search-form">
-            <input
-              type="text"
-              placeholder="Type a city.."
-              autofocus="on"
-              autocomplete="off"
-              id="city-input"
-            />
-            <input type="submit" value="Go" id="go" />
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Type a city.."
+                  autofocus="on"
+                  autocomplete="off"
+                  id="city-input"
+                />
+              </div>
+              <div class="col-1">
+                <input
+                  type="submit"
+                  value="Go"
+                  class="btn btn-outline-light"
+                  id="go"
+                />
+              </div>
+            </div>
           </form>
           <h2 id="city">City</h2>
           <h3 id="day">Day</h3>
@@ -42,7 +54,7 @@
             <span id="temperature"></span><span id="unit">°C</span>
             <span id="fahrenheit-link" href="#">| °F</span>
           </div>
-          <img src="img/cloudy.png" class="weather" alt="Cloudy" width="45px" />
+          <img id="icon" src="" width="45px" />
           <div id="description"></div>
           <hr />
           <div class="row">
@@ -53,19 +65,13 @@
           </div>
           <div class="row">
             <div class="col-3">
-              <img
-                src="img/rain cloud.png"
-                alt="Rain"
-                class="rain"
-                width="45px"
-              />
+              <img id="day1Icon" width="45px" />
             </div>
             <div class="col-3">
-              <img src="img/lightning.png" alt=Lightning" class="lightning"
-              width="45px" />
+              <img id="day2Icon" src="img/lightning.png" width="45px" />
             </div>
             <div class="col-3">
-              <img src="img/sun.png" alt="Sun" class="sun" width="45px" />
+              <img id="day2Icon" width="45px" />
             </div>
             <div class="col-3">
               <img

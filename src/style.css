@@ -16,13 +16,14 @@
     rgb(95, 209, 249) 100.2%
   );
 }
+
 .city {
   font-size: 36px;
   padding: 20px 0px 0px 0px;
   font-weight: bold;
 }
 h3 {
-  font-size: 18px;
+  font-size: 12px;
   display: inline;
 }
 a {
