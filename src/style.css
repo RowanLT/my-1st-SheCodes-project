@@ -25,14 +25,14 @@ h3 {
   display: inline;
 }
 a {
-  color: orange;
+  color: white;
 }
 
 .weather {
   padding: 10px 0px 40px 0px;
 }
 hr {
-  background: white;
+  background: rgb(85, 88, 218);
 }
 .col-3 {
   font-size: 14px;
