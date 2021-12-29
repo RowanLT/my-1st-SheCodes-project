@@ -22,11 +22,8 @@
   padding: 20px 0px 0px 0px;
   font-weight: bold;
 }
-h3 {
-  font: 10px;
-  display: inline;
-}
-a {
+.active,
+.inactive {
   color: white;
   text-decoration: underline;
 }
