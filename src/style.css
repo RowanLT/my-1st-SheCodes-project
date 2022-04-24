@@ -22,11 +22,6 @@
   padding: 20px 0px 0px 0px;
   font-weight: bold;
 }
-.active,
-.inactive {
-  color: white;
-  text-decoration: underline;
-}
 
 .weather {
   padding: 10px 0px 40px 0px;
@@ -34,11 +29,9 @@
 hr {
   background: white;
 }
-.col-3 {
-  font-size: 14px;
-  padding: 5px 0px;
-  text-align: center;
-}
 .forecast {
   text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 5px 0px;
 }
