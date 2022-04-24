@@ -35,3 +35,10 @@ hr {
   font-size: 14px;
   padding: 5px 0px;
 }
+.weather-forecast-temperature-max {
+  text-align: center;
+  font-size: 13px;
+}
+.weather-forecast-date {
+  text-align: center;
+}

@@ -49,9 +49,9 @@ function displayForecast(response) {
           alt=""
           width="42"
         />
-        <span class="weather-forecast-temperature-max">${Math.round(
+        <div class="weather-forecast-temperature-max">${Math.round(
           forecastDay.temp.max
-        )}° </span>
+        )}°C </div>
         </div>
   `;
     }
